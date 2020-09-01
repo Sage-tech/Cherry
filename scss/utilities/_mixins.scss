@@ -1,0 +1,19 @@
+
+
+/* ============================================= */ 
+/* Mixins CSS DOC */
+/* ============================================= */
+
+@mixin position($display, 
+	$margin-l,
+	$margin-r,
+	$margin-t,
+	$max-width){
+	display: $display;
+  margin-left: $margin-l;
+  margin-right: $margin-r;
+  margin-top: $margin-t;
+  max-width: $max-width;
+		
+	
+}
