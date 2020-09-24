@@ -11,13 +11,13 @@ $('.header').sticky({
   responsiveWidth: true
 });
 
-$('.header').on('sticky-start', function () {
-  $('.description').html('We build <strong>great</strong> apps');
-});
+// $('.header').on('sticky-start', function () {
+//   $('.description').html('<strong>Noble Bout</strong>');
+// });
 
-$('.header').on('sticky-end', function () {
-  $('.description').html('We build apps');
-});
+// $('.header').on('sticky-end', function () {
+//   $('.description').html('Noble Bout');
+// });
 
 $('.work').sticky({
   topSpacing: 60,
