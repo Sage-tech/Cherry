@@ -2,12 +2,19 @@
 /* * {margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;} */
-/* 
+
   html{font-weight: 300;
    font-style: normal;
   text-align: center;
-   font-size: 20px;} */
-  
+   font-size: 20px;
+ 
+  } 
+
+* {
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
    body{color: #B1B9C1;
     font-size: 1em;
     font-weight: 200;
@@ -28,6 +35,7 @@
   justify-content: center;
   align-items: center;
   background-attachment: fixed
+
   }
   section:before{
   content: '';
@@ -97,11 +105,11 @@ ul li {
   list-style-type: none;
 }
 
-.row {
+/* .row {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
-}
+} */
 
 
 /*Typography*/
@@ -111,6 +119,7 @@ p {
 h1, h2 {
   font-weight: 400;
   width: 100%;
+  
 }
 /* h1 {
   ;
@@ -226,16 +235,16 @@ nav a.active {
   margin: 100px 50% 100px 10%;
 }
 .blue {
-  background: #3E89BE;
+  background: #3ebe8d;
 }
 .orange {
-  background: #F8835A;
+  background: #6c4ec0;
 }
 .green {
-  background: #5ECE7F;
+  background: #dba257;
 }
 .yellow {
-  background: #FFD365;
+  background: #716cb6;
 }
 
 /*Footer*/
@@ -287,10 +296,11 @@ footer {
   margin-bottom: 60px;
 }
 .avatar {
+
   width: 50%;
-  display: block;
+  
   border-radius: 50%;
-  margin: 0 25%;
+  margin: 0 ;
 }
 
 /*Grid*/
@@ -312,6 +322,7 @@ footer {
   float: left;
 }
 .grid-fifth {
+
   width: 20%;
   float: left;
 }
@@ -407,6 +418,49 @@ footer {
 .slick-dots li button:before {
     font-size: 16px;
 }
+
+
+
+.donate-link {
+  width: 20em;
+  margin: auto;
+}
+
+.donate-image {
+  margin: auto;
+  width: 20em;
+  padding: 1em;
+}
+
+.btn-paypal {
+  background: transparent;
+  border: 2px solid #8224E3;
+  border-radius: 3px;
+  color: #8224E3;
+  font-weight: bold;
+  padding: 0.3m 0em;
+  margin: auto;
+  display: block;
+  width: 60%;
+  text-decoration: none;
+  font-size:1.3em;
+  text-align: center;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn-paypal:hover {
+  background-color: transparent;
+  color: rgb(195, 192, 236);
+  text-decoration: none;
+}
+
+.btn-paypal > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5em 0;
+}
+
 
 
 
